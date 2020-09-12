@@ -1,0 +1,72 @@
+---
+title: "Let's Talk About Australian Public Toilets."
+author: "Ariane Lim"
+date: '2020-09-09'
+description: "I found this weird dataset about toilets so I decided to analyze it."
+displayInList: true
+displayInMenu: false
+
+resources:
+- name: featuredImage
+  src: img/Australia-toilets.jpg
+  params:
+    description: "Description for the featured image, used as the alt text"
+categories:
+  - Spatial
+tags:
+  - plot
+  - R Markdown
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>Toilet-mapping is an interesting thing. In this post, I tell you why!</p>
+<p>More often than not, I find myself falling into an endless pit of internet browsing. My habit of getting lost on the internet has amplified since the COVID lockdown in Manila, and I can tell you that I’ve come across some amusing stuff. One amusing thing that I wanted to share with you is this National Public Toilet Dataset from Australian Government.</p>
+<p>Yes. <b> A National Public Toilet Dataset </b>.</p>
+<p>So, I find this exciting for a few reasons: <br>
+1. You don’t come across a free, downloadable .csv database about toilets everyday!<br>
+2. When I was taking my Master’s in Development Economics in Europe, it was almost IMPOSSIBLE to find a public toilet that doesn’t charge you per use. Hence, my slight fascination.<br>
+3. I’m curious to see what other things we can learn about Australia through their toilets.<br>
+4. Australia might have a public toilet app already, but… won’t plotting the coordinates of these public toilets be helpful in helping you plan a post-covid roadtrip in Australia?</p>
+<p>Without further ado, let’s dive right in!</p>
+<h4>
+More about the National Public Toilet Dataset
+</h4>
+<p>The dataset was published by the Australian Government’s Department of Health. It has 18,482 toilets on the list with really detailed information on what features we can see in each toilet (~oooh). If you’re interested to play around with this dataset, i gotchu! Download it <a href="https://data.gov.au/data/dataset/national-public-toilet-map"> HERE </a>,</p>
+<h4>
+Are there enough public toilets for everyone?
+</h4>
+<p><img src="/post/Australian-toilets/toilet_count.png" /></p>
+<p>In this bubble plot, we compare the number of toilets across the different Australian States while also taking a look at the Gross State Product and the State Population (the size of the circle).</p>
+<p>In general, Australia seems to be preeettyyy okay with handling their toilet budgets! But the Australian Capital Territory might need to invest bit more in their public toilet count. They’re almost double the size in population versus Northern Territory, but they still have the least number of toilets compared to all the other states. (whuuut?!)</p>
+<p>New South Wales is a clear public toilet haven! But that’s also because they’re the richest state and have the biggest population. I’m sure they attract a lot of tourists too, because Sydney is located there.</p>
+<p>So, fear not, Sydney travelers! When nature calls, it is easy to answer.</p>
+<h4>
+Non-binary toilet spaces
+</h4>
+<p><img src="/post/Australian-toilets/Australian_toilets_7_0.png" /></p>
+<p>The movement for gender equality and non-binary toilet spaces have always been a controversial policy discussion. Though I would expect larger, more liberal cities to embrace the concept of unisex toilets with open arms, it’s unexpected for areas with a smaller, more conservative population to support it. So Tasmania having a noticeably larger share of unisex toilets compared to other states comes as a surprise to me. After all, it was named “Bigots’ Island” back in the 90’s.</p>
+<p>I thought this was a mistake at first, but more research into this issue shows that cities in Tasmania are actively looking to promote gender-neutral toilets for more inclusiveness! If you want to know more about the initiative, click <a href="https://www.binary.org.au/divisive_trans_toilet_proposal"> HERE </a>.</p>
+<h4>
+Not all toilets are created equal
+</h4>
+<p><img src="/post/Australian-toilets/Australian_toilets_9_0.png" />
+Yes, they certainly are not.</p>
+<p>The graph shows that different states prioritize different features in their public toilets. There are more features to analyze in the dataset, but for the pupose of this fun little blog post, I will only be looking at two: (a) Baby changing areas and (b) showers.</p>
+<p>Some states have more showers versus baby changing areas in their public toilets, while some just like keeping it simple without providing those luxuries. At the end of the day, understanding why might need a deeper look at seeing how the inhabitants of these areas live. Do states with more baby changing areas have better child-friendly state policies? Or do states with more showers have better WASH programs?</p>
+<p>Hmm, maybe for discussion at another time!</p>
+<h4>
+Here’s the map. You can play around with it!
+</h4>
+<p>If you want an interactive view of all the public toilets in Australia, play around with the map below!</p>
+<iframe src="https://storage.googleapis.com/maps-blog-ariane/Aus_toilet.html" height="500" width="500">
+</iframe>
+<p><br><br></p>
+<h6>
+For the love of social science,
+<h6>
+<br>
+<h5>
+Ariane
+</h5>
