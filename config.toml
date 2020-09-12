@@ -1,0 +1,15 @@
+baseurl = "/"
+title = "Ariane Blogs Things"
+author = "Ariane Lim"
+canonifyurls = true
+paginate = 3
+theme = "aether"
+
+[params]
+    brand = "Ariane Blogs Things"
+    description = "Analytics by day. Game development by night. Social development by heart."
+    bgimg = "img/ignasi_pattern_s.png"
+
+[markup]
+  [markup.highlight]
+    style = "igor"
