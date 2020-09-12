@@ -1,0 +1,34 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories - Ariane Blogs Things</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Ariane Blogs Things</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Spatial</title>
+      <link>/categories/spatial/</link>
+      <pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/spatial/</guid>
+      <description></description>
+    </item><item>
+      <title>Features</title>
+      <link>/categories/features/</link>
+      <pubDate>Wed, 19 Dec 2018 10:35:35 -0500</pubDate>
+      
+      <guid>/categories/features/</guid>
+      <description></description>
+    </item><item>
+      <title>Web</title>
+      <link>/categories/web/</link>
+      <pubDate>Wed, 02 May 2018 14:33:42 -0400</pubDate>
+      
+      <guid>/categories/web/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
