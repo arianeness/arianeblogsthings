@@ -16,19 +16,19 @@
       <guid>/posts/goisforlovers/</guid>
       <description>I found this weird dataset about toilets so I decided to analyze it.</description>
     </item><item>
+      <title>Hello, Bouncy Bao!</title>
+      <link>/posts/bouncy-bao/</link>
+      <pubDate>Tue, 25 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/bouncy-bao/</guid>
+      <description>I made a game about a bouncing steamed bun with C# and Unity. (WARNING! This video has sound that plays automatically.)</description>
+    </item><item>
       <title>Aether Features</title>
       <link>/posts/aether-features/</link>
       <pubDate>Wed, 19 Dec 2018 10:35:35 -0500</pubDate>
       
       <guid>/posts/aether-features/</guid>
       <description>Hugo combined with the Aether theme turns easy to write markdown into powerful web pages.  KaTeX, Highlight.js, and Hugo provides the ability to create mathmatical symobols, equations, highlighted code, tables, lists, and much more.</description>
-    </item><item>
-      <title>Aether: A Clean Theme for Hugo</title>
-      <link>/posts/aether-theme/</link>
-      <pubDate>Wed, 02 May 2018 14:33:42 -0400</pubDate>
-      
-      <guid>/posts/aether-theme/</guid>
-      <description> Aether is new theme for Hugo that emphasizes motion, material, and depth as design elements. Distracting styling and page elements are forgone to focus on the content.</description>
     </item>
   </channel>
 </rss>
