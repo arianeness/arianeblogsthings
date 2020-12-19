@@ -10,7 +10,7 @@ dropCap: true
 resources:
 - name: featuredImage
   src: headerphoto.jpg
-title: Making my blog with R
+title: Making my blog with R (PART 1)
 ---
 
 I've been spending a bit more time on Linkedin and I see so many people posting a lot of cool stuff on their page! As an aspiring social/political/business data analyst (yes, I have a lot of interests..), I figured that I should start working on my online portfolio as well!
