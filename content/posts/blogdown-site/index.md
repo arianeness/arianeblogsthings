@@ -53,5 +53,7 @@ Blogdown already gives you a default template for your blog. The design isn't ba
 
 Now that you have a super basic canvas website and your themes, it's time to edit the content.
 
+That's for part 2!
+
 
 
